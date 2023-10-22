@@ -53,6 +53,10 @@ section{
     width: 20rem;
 }
 
+.card{
+    background-color: #F7F7F7;
+}
+
 .text-card{
     font-family: OdaBalloon;
 }
@@ -74,3 +78,11 @@ section{
     transition-duration: 1000ms;
 }
 
+.descubra{
+    text-transform: uppercase;
+    color: #000;
+}
+
+.bi{
+    color: #000;
+}
