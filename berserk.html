@@ -9,11 +9,12 @@
 </head>
 <body class="container-xl">
 
-    <nav class="row-10 navbar navbar-expand-lg navbar-light bg-transparent">
+    <nav class="row-10 navbar navbar-expand-sm navbar-light bg-transparent">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+          <img id="logo-mobile" class="navbar-brand" src="imagens/montanha.svg" alt="">
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
               <img class="navbar-brand" id="logo" src="imagens/montanha.svg" alt="">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -32,15 +33,82 @@
               </ul>
             </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">SEINEN SEKAI - BERSERK</a>
+                <a id="seinen-sekai" class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">SEINEN SEKAI - BERSERK</a>
               </li>
             </ul>
-            <a class="nav-link" href="conta.html">Minha Conta</a>
+              <a class="nav-link" href="#">Minha Conta</a>
           </div>
         </div>
       </nav>
 
+
+
       <main class="row-xl-12 d-flex flex-row m-5">
+        <aside id="mobile" class="ms-5 d-flex flex-column align-items-center">
+          <h1 id="titulo-accordion" class="display-6 text-dark mt-1 mb-0">Berserk</h1>  
+          <div id="capa" class=" d-flex flex-column justify-content-center align-items-center mt-4">
+            <img src="imagens/berserk/capa-berserk.jpg" alt="Capa de Berserk">
+          </div>
+
+          <div class="accordion accordion-flush mb-5" id="accordionFlushExample">
+            <div class="accordion-item">
+                  <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Títulos alternativos
+                      </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body"> 
+                          <p>
+                            Sinônimos: Berserk: The Prototype
+                            <br>
+                            Nome oficial: ベルセルク
+                          </p>
+                      </div>
+                  </div>
+            </div>
+
+              <div class="accordion-item">
+                  <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Informações
+                      </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body text-center">
+                        <b>Tipo</b><br>Mangá<br><br>
+                        <b>Volumes</b><br>Desconhecido<br><br>
+                        <b>Capítulos</b><br>Desconhecido<br><br>
+                        <b>Status</b><br>Publicação<br><br>
+                        <b>Publicado</b><br>25 de agosto de 1989 a?<br><br>
+                        <b>Gêneros</b><br>Ação;<br>Aventura;<br>Premiado;<br>Drama;<br>Fantasia;<br>Terror;<br>Sobrenatural<br><br>
+                        <b>Temas</b><br>Gore;<br> Militar;<br> Mitologia;<br> Psicológico<br><br>
+                        <b>Demográfico</b><br>Seinen<br><br>
+                        <b>Serialização</b><br>Young Animal<br><br>
+                        <b>Autores</b><br>Miura, Kentarou (história e arte), Studio Gaga (arte)<br><br>
+                      </div>
+                  </div>
+              </div>
+          
+              <div class="accordion-item">
+                  <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Links Externos
+                      </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <a class="text-decoration-none" href="http://www.younganimal.com/berserk/" target="_blank">Official website of Berserk</a><br>
+                        <a class="text-decoration-none" href="https://twitter.com/berserk_project" target="_blank">@berserk_project on Twitter</a><br>
+                        <a class="text-decoration-none" href="http://www.berserk-anime.com/" target="_blank">Official website of Berserk anime</a><br>
+                        <a class="text-decoration-none" href="https://twitter.com/berserk_anime" target="_blank">@berserk_anime on Twitter</a><br>
+                        <a class="text-decoration-none" href="https://www.darkhorse.com/Search/berserk" target="_blank">Berserk on DarkHorse.com</a><br>
+                        <a class="text-decoration-none" href="http://www.art-of-war.jp/" target="_blank">Art of War | Berserk Figure & Goods Maker</a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </aside>
           <section class="col d-flex flex-column">
             <h1 class="display-6">Resumo da Obra</h1>
             <p>
@@ -68,7 +136,7 @@
             <a href="https://en.wikipedia.org/wiki/Battle_Beast_(band)" target="_blank" data-bs-toggle="tooltip" title="Clique para saber mais!">Battle Beast</a> escreveu canções sobre Berserk , incluindo várias em seu álbum autointitulado de 2013. A banda de deathcore Brand of Sacrifice lançou o álbum God Hand em 2019. Tanto a banda quanto o álbum são enormemente inspirados em Berserk . Em 2021, a banda de deathcore 
             <a href="https://en.wikipedia.org/wiki/Slaughter_to_Prevail" target="_blank" data-bs-toggle="tooltip" title="Clique para saber mais!">Slaughter to Prevail</a> lançou um videoclipe para sua música "Zavali Ebalo", que apresentava cenas da série de anime Berserk 1997.</p>
           </section>
-          <aside class="ms-5 d-flex flex-column align-items-center">
+          <aside id="pc" class="ms-5 d-flex flex-column align-items-center">
             <h1 id="titulo-accordion" class="display-6 text-dark mt-1 mb-0">Berserk</h1>  
             <div id="capa" class=" d-flex flex-column justify-content-center align-items-center mt-4">
               <img src="imagens/berserk/capa-berserk.jpg" alt="Capa de Berserk">
@@ -99,18 +167,18 @@
                         </button>
                     </h2>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body text-center">
-                          <b>Tipo</b><br>Mangá<br><br>
-                          <b>Volumes</b><br>Desconhecido<br><br>
-                          <b>Capítulos</b><br>Desconhecido<br><br>
-                          <b>Status</b><br>Publicação<br><br>
-                          <b>Publicado</b><br>25 de agosto de 1989 a?<br><br>
-                          <b>Gêneros</b><br>Ação;<br>Aventura;<br>Premiado;<br>Drama;<br>Fantasia;<br>Terror;<br>Sobrenatural<br><br>
-                          <b>Temas</b><br>Gore;<br> Militar;<br> Mitologia;<br> Psicológico<br><br>
-                          <b>Demográfico</b><br>Seinen<br><br>
-                          <b>Serialização</b><br>Young Animal<br><br>
-                          <b>Autores</b><br>Miura, Kentarou (história e arte), Studio Gaga (arte)<br><br>
-                        </div>
+                      <div class="accordion-body text-center">
+                        <b>Tipo</b><br>Mangá<br><br>
+                        <b>Volumes</b><br>Desconhecido<br><br>
+                        <b>Capítulos</b><br>Desconhecido<br><br>
+                        <b>Status</b><br>Publicação<br><br>
+                        <b>Publicado</b><br>25 de agosto de 1989 a?<br><br>
+                        <b>Gêneros</b><br>Ação;<br>Aventura;<br>Premiado;<br>Drama;<br>Fantasia;<br>Terror;<br>Sobrenatural<br><br>
+                        <b>Temas</b><br>Gore;<br> Militar;<br> Mitologia;<br> Psicológico<br><br>
+                        <b>Demográfico</b><br>Seinen<br><br>
+                        <b>Serialização</b><br>Young Animal<br><br>
+                        <b>Autores</b><br>Miura, Kentarou (história e arte), Studio Gaga (arte)<br><br>
+                      </div>
                     </div>
                 </div>
             
@@ -136,7 +204,7 @@
         </main>
 
         <h1 id="h1-personagem" class="display-6 mb-5">Principais Personagens</h1>
-        <div id="personagens" class="row-xl-12 d-flex flex-row container justify-content-center align-items-center" >
+        <div id="personagens" class="row-xl-12 d-flex flex-row container justify-content-center align-items-center">
         <div class="card m-3" style="width: 18rem;">
             <img src="imagens/berserk/personagem-casca.jpg" class="card-img-top" alt="Casca">
             <div class="card-body">
@@ -201,7 +269,7 @@
                   </div>
                 </div>
               </div>
-              <div class="row mt-5">
+              <div class="row mt-5 carrossel-baixo">
                 <div id="carouselExampleSlidesOnly" class="carousel slide border border-2 p-1 border-black" data-bs-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -224,7 +292,7 @@
               </div>
             </div>
 
-            <div class="col d-flex flex-column align-items-center justify-content-center p-5">
+            <div id="galeria-meio" class="col d-flex flex-column align-items-center justify-content-center p-5">
               <div class="row">
                 <figure class="m-0 p-0">
                   <blockquote class="blockquote">
@@ -262,7 +330,7 @@
                   </div>
                 </div>
               </div>
-              <div class="row mt-5">
+              <div class="row mt-5 carrossel-baixo">
                 <div id="carouselExampleSlidesOnly" class="carousel slide border border-2 p-1 border-black" data-bs-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -297,7 +365,7 @@
                 <a href="vinlandSaga.html">Vinland Saga | </a>
                 <a href="vagabond.html">Vagabond | </a>
                 <a href="kingdom.html">Kingdom | </a>
-                <a href="conta.html">Logar ou Cadastrar-se</a>
+                <a href="conta.html">Conta</a>
               </p>
             </div>
             <div class="div-right d-flex justify-content-end w-100">
