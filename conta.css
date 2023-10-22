@@ -45,6 +45,10 @@ body
     background-image: url(imagens/background/login-background.png);
 }
 
+.cadastro{
+    background-image: url(imagens/background/SVG/opacidade-manuel.svg);
+}
+
 @media screen and (max-width: 980px){
 
     main{
