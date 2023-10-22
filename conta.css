@@ -45,3 +45,18 @@ body
     background-image: url(imagens/background/login-background.png);
 }
 
+@media screen and (max-width: 980px){
+
+    main{
+        flex-wrap: wrap!important;
+        justify-content: center;
+    }
+
+    section.ms-5{
+        margin: 0;
+    }
+
+    section.me-5{
+        margin: 0;
+    }
+}
