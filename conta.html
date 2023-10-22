@@ -18,6 +18,9 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
               <img class="navbar-brand" id="logo" src="imagens/montanha.svg" alt="">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
               <li class="nav-item dropdown">  
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Obras
@@ -38,8 +41,24 @@
         </div>
       </nav>
 
-      <main>
-        <section>   
+      <main class="container-xl d-flex flex-row align-items-center justify-content-center mt-5">
+        <section class="login border border-4 border-black w-50 me-5">   
+          <h1>Login</h1>
+
+            <form class=" form-text row g-3">
+
+              <label for="inputPassword5" class="form-label">Senha</label>
+              <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+              <div id="passwordHelpBlock" class="form-text">
+                Sua senha deve conter de 8 a 20 caracteres , contendo letras e números, e não deve conter espaços, caracteres especiais, ou emojis.
+              </div>
+
+            </form>
+
+        </section>
+
+        <section class="cadastro login border border-4 border-black w-50 ms-5">   
+          <p>a</p>
         </section>
       </main>
 
