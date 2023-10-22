@@ -38,4 +38,10 @@ body
     margin-top: 2%;
     text-transform: uppercase;
     font-weight: 700;
+    margin-bottom: 6%!important;
 }
+
+.login{
+    background-image: url(imagens/background/login-background.png);
+}
+
