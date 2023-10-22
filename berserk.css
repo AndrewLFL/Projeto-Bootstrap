@@ -25,6 +25,10 @@ body
     font-weight: 500;
     background-image: url(imagens/background/background-berserk.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-x: hidden;
 }
 
 #logo{
@@ -110,10 +114,21 @@ aside{
 footer{
     background-color: #2b2b2b;
     width: 100vw;
-    margin: 0;
-    padding: 0;
-    height: 150px;
+    color: rgb(255, 255, 255);
 }
 
+.negrito{
+    font-weight: 800;
+}
+
+.links > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.div-right{
+    color: #ffffffa8;
+    font-size: 0.9rem
+}
 
 
