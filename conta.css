@@ -39,38 +39,3 @@ body
     text-transform: uppercase;
     font-weight: 700;
 }
-
-#text-div-right{
-    text-align: justify;
-}
-
-section{
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.engloba-card{
-    width: 20rem;
-}
-
-.text-card{
-    font-family: OdaBalloon;
-}
-
-.kanji-card{
-    font-family: RampartOne;
-    writing-mode:vertical-lr;
-}
-
-.animacao-card:hover
-{
-    transform: scale(1.02);
-    transition-duration: 1000ms;
-}
-
-.animacao-card
-{
-    transform: scale(1.0);
-    transition-duration: 1000ms;
-}
-
