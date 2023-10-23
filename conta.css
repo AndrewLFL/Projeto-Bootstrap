@@ -30,6 +30,10 @@ body
     margin: 0;
 }
 
+#logo-mobile{
+    display: none;
+}
+
 .navbar
 {
     border:4px solid #000;
@@ -38,29 +42,113 @@ body
     margin-top: 2%;
     text-transform: uppercase;
     font-weight: 700;
-    margin-bottom: 6%!important;
 }
+
 
 .login{
     background-image: url(imagens/background/login-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cadastro{
     background-image: url(imagens/background/SVG/opacidade-manuel.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media screen and (max-width: 980px){
 
-    main{
-        flex-wrap: wrap!important;
-        justify-content: center;
-    }
+main.flex-row{
+    flex-direction: column !important;
+}
 
-    section.ms-5{
+section.me-5, section.ms-5{
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+section.login{
+    margin-top: 3% !important;
+    margin-bottom: 3%!important;
+    width: 90% !important;
+}
+
+section.cadastro{
+    margin-top: 3% !important;
+    margin-bottom: 3%!important;
+    width: 90% !important;
+}
+
+}
+
+@media screen and (max-width: 575px){
+    #logo-mobile{
+        display: block;
+        width: 15%;  
+        padding: 0;
         margin: 0;
     }
 
-    section.me-5{
-        margin: 0;
+    #logo{
+        display: none ;
+    }
+
+    #seinen-sekai
+    {
+        display: none;
+    }
+
+    ul.dropdown-menu
+    {
+        border: none;
+        background-color: #00000000;
+    }
+}
+
+@media screen and (max-width: 501px){
+    #senha-login.flex-row, #senha-cadastro.flex-row
+    {
+        flex-direction: column !important;
+    }
+
+    form{
+        width: 115% !important;
+    }
+
+    #login-btns
+    {
+        margin-top: 0% !important;
+    }
+
+    #btn-senha
+    {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media screen and (max-width: 423px)
+{
+    #login-btns
+    {
+        flex-direction: column !important;
+    }
+
+    #login-btns > button
+    {
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+        width: 100% !important; 
+    }
+
+    #btn-senha
+    {
+        font-size: 1rem !important;
+        margin-top: 5% !important;
+    }
+
+    #btn-cadastro
+    {
+        width: 100% !important;
     }
 }
