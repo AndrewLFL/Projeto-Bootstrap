@@ -30,6 +30,10 @@ body
     margin: 0;
 }
 
+#logo-mobile{
+    display: none;
+}
+
 .navbar
 {
     border:4px solid #000;
@@ -39,6 +43,7 @@ body
     text-transform: uppercase;
     font-weight: 700;
 }
+
 
 #text-div-right{
     text-align: justify;
@@ -90,4 +95,100 @@ section{
 #wiki
 {
     cursor: pointer;
+}
+
+@media screen and (min-width:991px) and (max-width: 1199px)
+{
+    p#text-vinland
+    {
+        font-size: 1rem !important;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 991px)
+{
+    .animacao-card
+    {
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 991px)
+{
+    .animacao-card
+    {
+        margin-top: 4% !important;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    main.flex-row
+    {
+        flex-direction: column !important;
+    }
+
+    main.p-5
+    {
+        padding: 2% !important;
+    }
+
+    #div-left
+    {
+        width: 100% !important;
+        margin-right: 0% !important;
+    }
+
+    #div-right
+    {
+        width: 100% !important;
+    }
+}
+
+
+
+@media screen and (max-width: 575px){
+    #logo-mobile{
+        display: block;
+        width: 15%;  
+        padding: 0;
+        margin: 0;
+    }
+
+    #logo{
+        display: none ;
+    }
+
+    #seinen-sekai
+    {
+        display: none;
+    }
+
+    ul.dropdown-menu
+    {
+        border: none;
+        background-color: #00000000;
+    }
+}
+
+@media screen and (max-width: 518px){
+
+    section.flex-row{
+        flex-direction: column !important;
+    }
+
+    section{
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .animacao-card
+    {
+        width: 80% !important;
+    }
+
+    .kanji-card
+    {
+        font-size: 2.5rem !important;
+    }
 }
