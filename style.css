@@ -86,3 +86,8 @@ section{
 .bi{
     color: #000;
 }
+
+#wiki
+{
+    cursor: pointer;
+}
